@@ -50,7 +50,6 @@ public class AppleTree : MonoBehaviour
         }
     }
 
-
     void FixedUpdate(){
         //Changing Direction Randomly is now time-based because of FixedUpdate()
        if (Random.value<chanceToChangeDirections)
